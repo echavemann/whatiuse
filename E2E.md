@@ -21,11 +21,21 @@ Install some basic stuff:
 Install Conan and Poetry:  
 `pip3 install conan poetry`
 
+Make some folders
+`cd ~`
+`mkdir CP`
+`mkdir Projects`
+`mkdir Work`
+
 Set up GitHub SSH:  
 `ssh-keygen`  
 `cat ~/.ssh/id_rsa.pub`  
 Now go to Github.com and add the key.
 TODO: improve this lol
+
+Pull CPLIB:
+`cd ~/CP`
+`git clone git@github.com:echavemann/cplib.git`
 
 ## Docker Install
 Go to the docker website and download the appropriate installer.
